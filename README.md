@@ -1,1 +1,2 @@
 # autosuggest
+verifying git setup
