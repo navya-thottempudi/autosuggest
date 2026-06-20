@@ -10,13 +10,20 @@
     <div class="nav">
         <a href="/">Home</a>
         <a href="/pages/card.html">Card</a>
-        <a href="">Toggle</a>
+        <a href="/pages/toggle.html">Toggle</a>
         <a href="">Random User</a>
     </div>
     <div class="card">
-        <img src="/images/john.png" alt="User Image">
-        <h2>John Doe</h2>
-        <p>Male</p>
+        <div>
+            <img id="image" src="/images/john.png" alt="User Image">
+            <h2 id="Name">John Doe</h2>
+            <p id="Gender">Male</p>
+        </div>
+        <div>
+            <button  onclick="toggle()">toggle</button>
+        </div>
     </div>
+    <script src="/js/toggle.js"></script>
+    
 </body>
 </html>
