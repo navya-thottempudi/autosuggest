@@ -51,9 +51,10 @@ body{
 .card button{
     margin-bottom:15px;
 }
-.gear{
-    align-items: left;
+.top.gear{
+    text-align: center;
 }
-.time{
-    align-items: right;
+.top.time{
+    text-align: center;
+    justify-content:last baseline;
 }
