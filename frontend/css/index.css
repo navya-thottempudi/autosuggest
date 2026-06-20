@@ -51,3 +51,9 @@ body{
 .card button{
     margin-bottom:15px;
 }
+.gear{
+    align-items: left;
+}
+.time{
+    align-items: right;
+}
