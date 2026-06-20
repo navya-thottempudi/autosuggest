@@ -10,4 +10,7 @@ function randomUser(){
             document.getElementById("name").innerText=fullName;
             document.getElementById("gender").innerText=user.gender;
         })
+        .catch(function(err){
+            console.log("Error: "+err);
+        })
 }
